@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: #c5ebd6;
+}
+#cabecalho{
+    color: white;
+    padding: 50px;
+    background:#063d1e;   
+    text-align: center;
+}
+#cabecalho h1 {
+    color: white;
+    padding: 15px;
+    font-family: Bebas Neue, cursive;
+}
+#conteudo h1{
+    font-family: iDroid, sans-serif;
+    padding: 20px;
+    color: #063d1e;
+    
+}
+h2 {
+    font-family: iDroid, sans-serif;
+    background-color: #83e1ad;
+    margin-top: 10px;
+    color: #063d1e;
+}
+#conteudo{
+    width: 800px;
+    margin: 0 auto;
+    line-height: 1.5em;
+    background: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#rodape{
+
+    background: #063d1e;
+    text-align: center;  
+    margin-top: 20px;
+    padding: 10px;  
+}
+
+
+a{
+    color: #063d1e;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+#cabecalho ul{
+    margin-top: 30px;       
+}
+#cabecalho ul li{
+    float: left;
+    
+}
+#cabecalho ul a{
+
+    font-size: 0.9em;
+    display: block;
+    padding: 0.5em 1.5em;
+    line-height: 1em;    
+    text-decoration: none;
+    color: white;
+}
+#cabecalho a:hover{
+    background: rgb(136, 182, 136);
+}
