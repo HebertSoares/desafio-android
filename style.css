@@ -10,16 +10,19 @@ body{
     padding: 50px;
     background:#063d1e;   
     text-align: center;
+    min-width: 450px;
 }
 #cabecalho h1 {
     color: white;
     padding: 15px;
     font-family: Bebas Neue, cursive;
+    
 }
 #conteudo h1{
     font-family: iDroid, sans-serif;
     padding: 20px;
     color: #063d1e;
+    
     
 }
 h2 {
@@ -29,7 +32,8 @@ h2 {
     color: #063d1e;
 }
 #conteudo{
-    width: 800px;
+    width: 5% 0;
+    max-width: 800px;
     margin: 0 auto;
     line-height: 1.5em;
     background: white;
@@ -43,12 +47,9 @@ h2 {
     margin-top: 20px;
     padding: 10px;  
 }
-
-
 a{
     color: #063d1e;
 }
-
 ul {
     margin: 0;
     padding: 0;
